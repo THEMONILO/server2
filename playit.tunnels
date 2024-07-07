@@ -1,0 +1,59 @@
+{
+  "tcp_alloc": {
+    "allowed": 6,
+    "claimed": 1,
+    "desired": 1
+  },
+  "tunnels": [
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "papers-les.gl.joinmc.link",
+          "assigned_srv": "papers-les.gl.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "637633bf-4a8c-4a18-a684-1061548ab373",
+          "ip_hostname": "20.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 63740,
+          "port_start": 63739,
+          "region": "global",
+          "static_ip4": "147.185.221.20",
+          "tunnel_ip": "2602:fbaf:0:1::14"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-07-07T21:03:54.638059Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "52466349-7c3a-4806-80af-44a59ec9b00d",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "58f86167-145d-4267-83d4-51eb9b3db6b1",
+          "agent_name": "THEMONILO",
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": "minecraft-java"
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 6,
+    "claimed": 0,
+    "desired": 0
+  }
+}
